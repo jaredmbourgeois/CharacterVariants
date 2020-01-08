@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CVCharacter" representedClassName="CVCharacter" syncable="YES" codeGenerationType="class">
+        <attribute name="characterDescription" optional="YES" attributeType="String"/>
+        <attribute name="characterIconImage" optional="YES" attributeType="Binary"/>
+        <attribute name="characterIconURL" optional="YES" attributeType="String"/>
+        <attribute name="characterTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CVCharacter" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>

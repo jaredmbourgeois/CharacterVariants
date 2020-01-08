@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "CharacterVariantsCommon">
+      <FileRef
+         location = "group:CharacterVariantsCommon/CoreDataModel.xcdatamodel">
+      </FileRef>
+      <FileRef
+         location = "group:CharacterVariantsCommon/CoreDataModelBuild.sh">
+      </FileRef>
+      <FileRef
+         location = "group:CharacterVariantsCommon/CharacterVariantsCommon.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "SimpsonsCharacters">
+      <FileRef
+         location = "group:SimpsonsCharacters/SimpsonsCharacters.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "WireCharacters">
+      <FileRef
+         location = "group:WireCharacters/WireCharacters.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
