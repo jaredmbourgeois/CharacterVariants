@@ -12,6 +12,12 @@
 		7F388CD523C0820200823AAD /* CoreDataModel.momd in Resources */ = {isa = PBXBuildFile; fileRef = 7F388CCF23C069C200823AAD /* CoreDataModel.momd */; };
 		7F388CDA23C53EC300823AAD /* FileSystemInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CD923C53EC300823AAD /* FileSystemInterface.swift */; };
 		7F388CE023C5687A00823AAD /* UserInputCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CDF23C5687A00823AAD /* UserInputCoordinator.swift */; };
+		7F388CF023C5986D00823AAD /* CharacterVariantsCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F388CEF23C5986D00823AAD /* CharacterVariantsCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F388CF523C5989B00823AAD /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CF123C5989A00823AAD /* Format.swift */; };
+		7F388CF623C5989B00823AAD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CF223C5989A00823AAD /* Extensions.swift */; };
+		7F388CF723C5989B00823AAD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CF323C5989A00823AAD /* Protocols.swift */; };
+		7F388CF823C5989B00823AAD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CF423C5989B00823AAD /* Font.swift */; };
+		7F388CFA23C598BB00823AAD /* CharacterVariantsCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 7F388CEF23C5986D00823AAD /* CharacterVariantsCommon.h */; };
 		7FFF551523BFC108009F76D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFF551423BFC108009F76D9 /* CoreGraphics.framework */; };
 		7FFF551723BFC10E009F76D9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFF551623BFC10E009F76D9 /* CoreData.framework */; };
 		7FFF551923BFC125009F76D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFF551823BFC125009F76D9 /* UIKit.framework */; };
@@ -26,18 +32,17 @@
 		7FFF553423BFC181009F76D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF552523BFC181009F76D9 /* DetailViewController.swift */; };
 		7FFF553523BFC181009F76D9 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF552623BFC181009F76D9 /* NetworkInterface.swift */; };
 		7FFF553623BFC181009F76D9 /* ViewModelCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF552723BFC181009F76D9 /* ViewModelCoordinator.swift */; };
-		7FFF553723BFC181009F76D9 /* CharacterVariantsCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF552823BFC181009F76D9 /* CharacterVariantsCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FFF553D23BFC1AF009F76D9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF553923BFC1AE009F76D9 /* Extensions.swift */; };
-		7FFF553E23BFC1AF009F76D9 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF553A23BFC1AF009F76D9 /* Font.swift */; };
-		7FFF553F23BFC1AF009F76D9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF553B23BFC1AF009F76D9 /* Protocols.swift */; };
-		7FFF554023BFC1AF009F76D9 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF553C23BFC1AF009F76D9 /* Format.swift */; };
-		7FFF55A023BFCCED009F76D9 /* CharacterVariantsCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF552823BFC181009F76D9 /* CharacterVariantsCommon.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F388CCF23C069C200823AAD /* CoreDataModel.momd */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreDataModel.momd; sourceTree = "<group>"; };
 		7F388CD923C53EC300823AAD /* FileSystemInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemInterface.swift; sourceTree = "<group>"; };
 		7F388CDF23C5687A00823AAD /* UserInputCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputCoordinator.swift; sourceTree = "<group>"; };
+		7F388CEF23C5986D00823AAD /* CharacterVariantsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterVariantsCommon.h; sourceTree = "<group>"; };
+		7F388CF123C5989A00823AAD /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		7F388CF223C5989A00823AAD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7F388CF323C5989A00823AAD /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		7F388CF423C5989B00823AAD /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		7FFF550823BFBF79009F76D9 /* CharacterVariantsCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CharacterVariantsCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFF550C23BFBF79009F76D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FFF551423BFC108009F76D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,11 +61,6 @@
 		7FFF552523BFC181009F76D9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7FFF552623BFC181009F76D9 /* NetworkInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
 		7FFF552723BFC181009F76D9 /* ViewModelCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelCoordinator.swift; sourceTree = "<group>"; };
-		7FFF552823BFC181009F76D9 /* CharacterVariantsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterVariantsCommon.h; path = ../../../CharacterVariants_old/CharacterVariantsCommon/CharacterVariantsCommon/CharacterVariantsCommon.h; sourceTree = "<group>"; };
-		7FFF553923BFC1AE009F76D9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../Swift/Swift/Extensions.swift; sourceTree = "<group>"; };
-		7FFF553A23BFC1AF009F76D9 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = ../../../../Swift/Swift/Font.swift; sourceTree = "<group>"; };
-		7FFF553B23BFC1AF009F76D9 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = ../../../../Swift/Swift/Protocols.swift; sourceTree = "<group>"; };
-		7FFF553C23BFC1AF009F76D9 /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Format.swift; path = ../../../../Swift/Swift/Format.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,17 @@
 			path = CoreDataNSManagedObjects;
 			sourceTree = "<group>";
 		};
+		7F388CF923C5989F00823AAD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				7F388CF223C5989A00823AAD /* Extensions.swift */,
+				7F388CF423C5989B00823AAD /* Font.swift */,
+				7F388CF123C5989A00823AAD /* Format.swift */,
+				7F388CF323C5989A00823AAD /* Protocols.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		7FFF54FE23BFBF79009F76D9 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				7F388CCF23C069C200823AAD /* CoreDataModel.momd */,
-				7FFF552823BFC181009F76D9 /* CharacterVariantsCommon.h */,
+				7F388CEF23C5986D00823AAD /* CharacterVariantsCommon.h */,
 				7FFF551A23BFC180009F76D9 /* Configuration.swift */,
 				7FFF551B23BFC180009F76D9 /* CoreDataInterface.swift */,
 				7F388CD823C5155F00823AAD /* CoreDataNSManagedObjects */,
@@ -122,8 +133,8 @@
 				7FFF552023BFC180009F76D9 /* View.swift */,
 				7FFF552123BFC180009F76D9 /* ViewModel.swift */,
 				7FFF552723BFC181009F76D9 /* ViewModelCoordinator.swift */,
+				7F388CF923C5989F00823AAD /* Swift */,
 				7FFF550C23BFBF79009F76D9 /* Info.plist */,
-				7FFF553823BFC19B009F76D9 /* Swift */,
 			);
 			path = CharacterVariantsCommon;
 			sourceTree = "<group>";
@@ -138,17 +149,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FFF553823BFC19B009F76D9 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				7FFF553923BFC1AE009F76D9 /* Extensions.swift */,
-				7FFF553A23BFC1AF009F76D9 /* Font.swift */,
-				7FFF553C23BFC1AF009F76D9 /* Format.swift */,
-				7FFF553B23BFC1AF009F76D9 /* Protocols.swift */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -156,7 +156,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FFF553723BFC181009F76D9 /* CharacterVariantsCommon.h in Headers */,
+				7F388CF023C5986D00823AAD /* CharacterVariantsCommon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +167,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FFF551023BFBF79009F76D9 /* Build configuration list for PBXNativeTarget "CharacterVariantsCommon" */;
 			buildPhases = (
-				7F388CCC23C05D0F00823AAD /* ShellScript */,
 				7FFF550323BFBF79009F76D9 /* Headers */,
 				7FFF550423BFBF79009F76D9 /* Sources */,
 				7FFF550523BFBF79009F76D9 /* Frameworks */,
@@ -226,35 +225,17 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7F388CCC23C05D0F00823AAD /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(SRC_ROOT)/CharacterVariantsCommon/CoreDataModel.momd",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/Users/jared/Projects/CharacterVariants/CharacterVariantsCommon/CoreDataModelBuild.sh\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7FFF550423BFBF79009F76D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FFF55A023BFCCED009F76D9 /* CharacterVariantsCommon.h in Sources */,
+				7F388CFA23C598BB00823AAD /* CharacterVariantsCommon.h in Sources */,
+				7F388CF523C5989B00823AAD /* Format.swift in Sources */,
 				7F388CDA23C53EC300823AAD /* FileSystemInterface.swift in Sources */,
 				7FFF552A23BFC181009F76D9 /* CoreDataInterface.swift in Sources */,
+				7F388CF723C5989B00823AAD /* Protocols.swift in Sources */,
+				7F388CF823C5989B00823AAD /* Font.swift in Sources */,
 				7FFF553323BFC181009F76D9 /* CoreDataExtensions.swift in Sources */,
 				7F388CC523BFED2600823AAD /* CVCharacter+CoreDataClass.swift in Sources */,
 				7F388CC623BFED2600823AAD /* CVCharacter+CoreDataProperties.swift in Sources */,
@@ -265,13 +246,10 @@
 				7FFF553623BFC181009F76D9 /* ViewModelCoordinator.swift in Sources */,
 				7FFF553223BFC181009F76D9 /* Model.swift in Sources */,
 				7F388CE023C5687A00823AAD /* UserInputCoordinator.swift in Sources */,
-				7FFF553D23BFC1AF009F76D9 /* Extensions.swift in Sources */,
 				7FFF552F23BFC181009F76D9 /* View.swift in Sources */,
-				7FFF553E23BFC1AF009F76D9 /* Font.swift in Sources */,
+				7F388CF623C5989B00823AAD /* Extensions.swift in Sources */,
 				7FFF553023BFC181009F76D9 /* ViewModel.swift in Sources */,
-				7FFF554023BFC1AF009F76D9 /* Format.swift in Sources */,
 				7FFF552C23BFC181009F76D9 /* SplitViewController.swift in Sources */,
-				7FFF553F23BFC1AF009F76D9 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
