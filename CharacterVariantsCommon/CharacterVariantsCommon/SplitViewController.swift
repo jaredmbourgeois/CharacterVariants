@@ -11,8 +11,6 @@ import UIKit
 public class SplitViewController: UISplitViewController, UISplitViewControllerDelegate {
     public lazy var listViewController: ListViewController = {
         let listViewController: ListViewController = ListViewController(listViewControllerViewDidLoadCallback: listViewControllerViewDidLoadHandler)
-        listViewController.charactersTableView.delegate = self
-        listViewController.charactersTableView.dataSource = self
         return listViewController
     }()
     public lazy var detailViewController: DetailViewController = {

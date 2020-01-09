@@ -16,11 +16,11 @@ public class DetailViewController: UIViewController, Dismissable {
     private var characterViewModelTitlesObserved: [String] = []
     public weak var characterViewModel: ViewModel.Character? {
         didSet {
-            if let characterViewModel: ViewModel.Character = self.characterViewModel {
+            if let characterViewModel: ViewModel.Character = characterViewModel {
                 var observingChanges = false
                 self.characterViewModelTitlesObserved.forEach({ if ($0 == characterViewModel.title) { observingChanges = true } })
                 if !observingChanges {
-                    characterViewModel.didSetHandlers.append(self.characterViewModelChanged(characterViewModel:))
+                    characterViewModel.didSetHandlers.append(characterViewModelChanged(characterViewModel:))
                     self.characterViewModelTitlesObserved.append(characterViewModel.title)
                 }
                 characterTitleLabel.text = characterViewModel.title
@@ -89,7 +89,7 @@ public class DetailViewController: UIViewController, Dismissable {
     
     public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         backgroundGradientLayer.frame = CGRect(x: 0, y: 0, width: size.width, height: size.height)
-//        backgroundGradientLayer.setNeedsDisplay()
+        backgroundGradientLayer.setNeedsDisplay()
     }
     
     
