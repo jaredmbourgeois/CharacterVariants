@@ -1,5 +1,15 @@
 # CharacterVariants
 
+## iOS Techniques Demonstrated
+- build multiple variants of an app from a common code base
+- UISplitViewController for a master-detail application
+	* classes SplitViewController, ListViewController, DetailViewController
+- CoreData used to cache characters and images once downloaded
+- AutoLayout used throughout the app
+- CALayers, custom CoreGraphics drawing
+- asynchronous, multi-threaded design using NSOperation / Operation / OperationQueue / Dispatch
+- reactive programming model using View Models that notify the observers of changes
+
 ## App Requirements
 Write a sample app that fetches and displays data from a RESTful Web API. 
 
