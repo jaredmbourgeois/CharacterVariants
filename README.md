@@ -4,23 +4,23 @@
 - build multiple variants of an app from a common code base
 - everything completely in code except for LaunchScreen
 	* not built using interface builder (no storyboards, xibs, IBOutlets, etc)
-- UISplitViewController for a master-detail application
-	* classes SplitViewController, ListViewController, DetailViewController
-- CoreData used to cache characters and images once downloaded
-- AutoLayout used throughout 
-	* adapts to device size and orientation changes
-- CALayers, custom CoreGraphics drawing
 - asynchronous, multi-threaded design 
 	* uses multiple OperationQueues to download data and manipulate the database in the background
 	* background operations exploit concurrency to keep UI responsive to handle user input
 - reactive architecture using View Models that notify the observers of changes
+- CoreData used to locally cache characters and images once downloaded
+- AutoLayout used throughout 
+	* adapts to device size and orientation changes
+- UISplitViewController for a master-detail application
+	* classes SplitViewController, ListViewController, DetailViewController
+- CALayers, custom CoreGraphics drawing
 
 ## App Requirements
 Write a sample app that fetches and displays data from a RESTful Web API. 
 
 The app should be comprised of two parts, a **list** and a **detail** 
-- **phones** > the list and detail should be separate screens
-- **tablets** > list and detail should appear on the same screen
+- **phones** > the list and detail should be *separate* screens
+- **tablets** > list and detail should appear on the *same* screen
 
 ### List View
 - data should be displayed as a text only, vertically scrollable list of character names
