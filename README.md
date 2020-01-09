@@ -154,4 +154,5 @@ The app should be comprised of two parts, a **list** and a **detail**
 - ListViewController
   * sets up its views
 - DetailViewController
+  * sets up its views
   * dismisses itself by conforming to Dismissable protocol
