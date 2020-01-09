@@ -105,7 +105,7 @@ The app should be comprised of two parts, a **list** and a **detail**
 
 # Model-View-ViewModel-Coordinator
 
-### Model
+## Model
 **Interfaces**
 - CoreDataInterface
 - NetworkInterface
@@ -123,18 +123,18 @@ The app should be comprised of two parts, a **list** and a **detail**
 - Character
 - conform to Decodable protocol with CodingKeys corresponding to JSON keys
 
-### View (View.swift)
+## View (View.swift)
 - ButtonContainerView
 - CharacterCell
 - GradientLayer
 - LogoHeaderView
 
-### ViewModel (ViewModel.swift)
+## ViewModel (ViewModel.swift)
 - Character
   * store data for Character view content (DetailViewController's view)
   * calls didSet handlers to update DetailViewController's imageView once character image is downloaded and cached 
   
-### Coordinator
+## Coordinator
 - ViewModelCoordinator
   * coordinates core data actions
   * downloads data in background using networkQueue
@@ -145,7 +145,7 @@ The app should be comprised of two parts, a **list** and a **detail**
 - UserInputCoordinator
   * handles user input by coordinating asynchronous commands sent to ViewModelCoordinator
   
-### ViewController
+## ViewController
 - SplitViewController
   * sets up its view controllers
   * handles user input via UserInputCoordinator
