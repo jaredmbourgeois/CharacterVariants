@@ -3,7 +3,7 @@
 ## iOS Techniques Demonstrated
 - build multiple variants of an app from a common code base
 - everything completely in code except for LaunchScreen
-	* not built using interface builder (no storyboards, xibs, IBOutlets, etc)
+	* no interface builder, storyboards, xibs, IBOutlets, etc
 - asynchronous, multi-threaded design 
 	* uses multiple OperationQueues to download data and manipulate the database in the background
 	* background operations exploit concurrency to keep UI responsive to handle user input
