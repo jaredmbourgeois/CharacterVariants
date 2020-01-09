@@ -2,13 +2,17 @@
 
 ## iOS Techniques Demonstrated
 - build multiple variants of an app from a common code base
+- everything completely in code except for LaunchScreen (ie not built using interface builder)
 - UISplitViewController for a master-detail application
 	* classes SplitViewController, ListViewController, DetailViewController
 - CoreData used to cache characters and images once downloaded
-- AutoLayout used throughout the app
+- AutoLayout used throughout 
+	* adapts to device size and orientation changes
 - CALayers, custom CoreGraphics drawing
-- asynchronous, multi-threaded design using NSOperation / Operation / OperationQueue / Dispatch
-- reactive programming model using View Models that notify the observers of changes
+- asynchronous, multi-threaded design 
+	* uses multiple OperationQueues to download data and manipulate the database in the background
+	* background operations exploit concurrency to keep UI responsive to handle user input
+- reactive architecture using View Models that notify the observers of changes
 
 ## App Requirements
 Write a sample app that fetches and displays data from a RESTful Web API. 
