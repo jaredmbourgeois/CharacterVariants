@@ -145,7 +145,7 @@ The app should be comprised of two parts, a **list** and a **detail**
 - UserInputCoordinator
   * handles user input by coordinating asynchronous commands sent to ViewModelCoordinator
   
-### Controller
+### ViewController
 - SplitViewController
   * sets up its view controllers
   * handles user input via UserInputCoordinator
