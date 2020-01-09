@@ -2,7 +2,8 @@
 
 ## iOS Techniques Demonstrated
 - build multiple variants of an app from a common code base
-- everything completely in code except for LaunchScreen (ie not built using interface builder)
+- everything completely in code except for LaunchScreen
+	* not built using interface builder (no storyboards, xibs, IBOutlets, etc)
 - UISplitViewController for a master-detail application
 	* classes SplitViewController, ListViewController, DetailViewController
 - CoreData used to cache characters and images once downloaded
