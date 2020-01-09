@@ -54,7 +54,9 @@ The app should be comprised of two parts, a **list** and a **detail**
   - logo inside app (LogoHeaderView) downloaded from CharacterVariantsConfiguration.URL.logoImage and cached locally
   
 **CharacterVariantsCommon**
+
 **SimpsonsCharacters**
+
 **WireCharacters**
 
 ## CharacterVariantsConfiguration
