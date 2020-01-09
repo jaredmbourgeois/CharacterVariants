@@ -19,13 +19,13 @@ The app should be comprised of two parts, a **list** and a **detail**
 - each variant should have a different name, package-name, and url that it pulls data from.
 
 --------------------
-### Simpsons Character Viewer
+# Simpsons Character Viewer
 
 **com.sample.simpsonsviewer**
 
 **[DuckDuckGo Simpsons Characters API](http://api.duckduckgo.com/?q=simpsons+characters&format=json)**
 --------------------
-### The Wire Character Viewer
+# The Wire Character Viewer
 
 **com.sample.wireviewer**
 
